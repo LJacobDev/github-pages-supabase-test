@@ -1,1 +1,1 @@
-# Testing the use of github pages with supabase and gemini
+Testing the use of github pages with supabase and gemini
