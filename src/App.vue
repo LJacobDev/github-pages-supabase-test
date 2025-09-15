@@ -27,7 +27,7 @@ const fetchItems = async () => {
   }
 };
 
-onMounted(() => {
+onMounted(() => { 
   fetchItems();
 });
 </script>
