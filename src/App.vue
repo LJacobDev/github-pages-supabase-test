@@ -35,6 +35,7 @@ onMounted(() => {
 <template>
   <div>
     <h2>Testing Database Retrieval via GitHub Pages Frontend</h2>
+    
     <div v-if="error" class="error">{{ error }}</div>
     <ul v-else>
       <li v-for="item in items" :key="item.id">
