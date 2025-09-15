@@ -27,8 +27,8 @@ jobs:
         VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
       run: npm run build
 
-    - name: Disable Jekyll
-      run: echo "" > ./dist/.nojekyll
+    - name: Add .nojekyll file
+      run: echo > dist/.nojekyll
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
